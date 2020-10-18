@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+
+<body>
+    <div class="headContainer">
+        <header>
+            <h1>Workday Planner</h1>
+        </header>
+    </div>
+    <div class="infoContainer">
+        <p>A simple work calender app for scheduling your work day.</p>
+        <hr>
+        <p id="date"></p>
+        <!--this is where moment will show the date and time-->
+    </div>
+    <div class="container" id="colorBlock">
+        <div class="row">
+            <div class="col gray">
+                <p>Former Events</p>
+            </div>
+            <div class="col green">
+                <p>Current Events</p>
+            </div>
+            <div class="col yellow">
+                <p>Upcoming Events</p>
+            </div>
+        </div>
+    </div>
+    <!--grid layout for time lots, text textarea and btn-->
+    <div class="container" id="plannerContainer">
+        <div class="row" id="9">
+            <div class="col-2 numbers" id="9">
+                9AM
+            </div>
+            <textarea type="text" class="form-control col-8" id="event">
+                    </textarea>
+            <br>
+            <button class="col-2 saveBtn">
+                <i class="fas fa-lock fa-1x"></i>
+            </button>
+            </button>
+            <div class="row" id="10">
+                <div class="col-2 numbers" id="10">
+                    <hr>10AM
+                </div>
+                <textarea type="text" class="form-control col-8" id="event">
+                    </textarea>
+                <br>
+                <button class="col-2 saveBtn">
+                    <i class="fas fa-lock fa-1x"></i>
+                </button>
+            </div>
+            <div class="row" id="11">
+                <div class="col-2 numbers" id="11">
+                    <hr>11AM
+                </div>
+                <textarea type="text" class="form-control col-8" id="event">
+                    </textarea>
+                <br>
+                <button class="col-2 saveBtn">
+                    <i class="fas fa-lock fa-1x"></i>
+                </button>
+            </div>
+            <div class="row" id="12">
+                <div class="col-2 numbers" id="12">
+                    <hr>12PM
+                </div>
+                <textarea type="text" class="form-control col-8" id="event">
+                    </textarea>
+                <br>
+                <button class="col-2 saveBtn">
+                    <i class="fas fa-lock fa-1x"></i>
+                </button>
+            </div>
+            <div class="row" id="13">
+                <div class="col-2 numbers" id="1">
+                    <hr>1PM
+                </div>
+                <textarea type="text" class="form-control col-8" id="event">
+                    </textarea>
+                <br>
+                <button class="col-2 saveBtn">
+                    <i class="fas fa-lock fa-1x"></i>
+                </button>
+            </div>
+            <div class="row" id="14">
+                <div class="col-2 numbers" id="2">
+                    <hr>2PM
+                </div>
+                <textarea type="text" class="form-control col-8" id="event">
+                    </textarea>
+                <br>
+                <button class="col-2 saveBtn">
+                    <i class="fas fa-lock fa-1x"></i>
+                </button>
+            </div>
+            <div class="row" id="15">
+                <div class="col-2 numbers" id="3">
+                    <hr>3PM
+                </div>
+                <textarea type="text" class="form-control col-8" id="event">
+                    </textarea>
+                <br>
+                <button class="col-2 saveBtn">
+                    <i class="fas fa-lock fa-1x"></i>
+                </button>
+            </div>
+            <div class="row" id="16">
+                <div class="col-2 numbers" id="4">
+                    <hr>4PM
+                </div>
+                <textarea type="text" class="form-control col-8" id="event">
+                    </textarea>
+                <br>
+                <button class="col-2 saveBtn">
+                    <i class="fas fa-lock fa-1x"></i>
+                </button>
+            </div>
+            <div class="row" id="17">
+                <div class="col-2 numbers" id="5">
+                    <hr>5PM
+                </div>
+                <textarea type="text" class="form-control col-8" id="event">
+                    </textarea>
+                <br>
+                <button class="col-2 saveBtn">
+                    <i class="fas fa-lock fa-1x"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!--JS Code Begins-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+    <script src="lib/moment/moment.min.js"></script>
+    <script src="https://kit.fontawesome.com/f84283eaae.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
