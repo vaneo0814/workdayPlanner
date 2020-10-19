@@ -10,3 +10,9 @@ Also, the text area can be expanded depending on how much they have to write in 
 
 The color blocks change depending on the time. I put informative color blocks for the user to know what the significance 
 of each color means. Former Events being gray, Current Events being green, and Upcoming Events being yellow.
+
+<img width="1378" alt="Screen Shot 2020-10-17 at 8 52 58 PM" src="https://user-images.githubusercontent.com/67250231/96356399-bebe3f80-10bb-11eb-8783-5240fb6a2664.png">
+
+<img width="1067" alt="Screen Shot 2020-10-17 at 8 53 06 PM" src="https://user-images.githubusercontent.com/67250231/96356403-e0b7c200-10bb-11eb-9949-e47d8ddb0a31.png">
+
+<img width="1146" alt="Screen Shot 2020-10-17 at 8 53 14 PM" src="https://user-images.githubusercontent.com/67250231/96356404-e4e3df80-10bb-11eb-9fc5-f4cbbe2ef334.png">
